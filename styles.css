@@ -1,0 +1,138 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header .logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    font-family: 'Verdana', sans-serif;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #007bff;
+}
+
+.hero-section {
+    text-align: center;
+    padding: 60px 20px;
+    background: rgba(255, 255, 255, 0.8);
+    margin: 20px 10px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.hero-section h1 {
+    font-size: 2.5em;
+    color: #343a40;
+}
+
+.hero-section p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.form-container {
+    background: white;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 20px auto;
+    max-width: 500px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 1em;
+    color: #333;
+    margin-bottom: 8px;
+    display: block;
+    text-align: left;
+}
+
+input, select, button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1em;
+}
+
+button {
+    background: #007bff;
+    color: white;
+    border: none;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.result, .error {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 1em;
+    text-align: center;
+}
+
+.result {
+    background: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.error {
+    background: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    margin-top: 30px;
+    font-size: 0.9em;
+}
